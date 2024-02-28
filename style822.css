@@ -1,0 +1,120 @@
+.box {
+  background-color: #000007;
+}
+
+svg {
+  width: 100%;
+}
+
+.group {
+  stroke: rgb(136, 211, 32);
+  stroke-width: 6;
+  animation: group 4s linear forwards;
+  stroke-dasharray: 7000;
+  stroke-dashoffset: 8000;
+}
+
+@keyframes group {
+  20% {
+    stroke: orange;
+  }
+  40% {
+    stroke: red;
+  }
+  60% {
+    stroke: indigo;
+  }
+  100% {
+    stroke: rgb(136, 211, 32);
+    stroke-dashoffset: 0;
+  }
+}
+.group1 {
+  stroke: rgb(22, 49, 221);
+  stroke-width: 6;
+  animation: group1 3s linear 2.5s forwards;
+  stroke-dashoffset: 6488;
+  stroke-dasharray: 6488;
+}
+
+@keyframes group1 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.group2 {
+  max-width: 200px;
+  stroke: rgb(255, 0, 149);
+  stroke-width: 10;
+  animation: group2 2.8s linear 3.9s forwards;
+  stroke-dashoffset: 6488;
+  stroke-dasharray: 6488;
+}
+
+@keyframes group2 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.group3 {
+  stroke: rgb(255, 166, 0);
+  stroke-width: 10;
+  animation: group3 3s linear 4.5s forwards;
+  stroke-dashoffset: 6488;
+  stroke-dasharray: 6488;
+}
+
+@keyframes group3 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.group4 {
+  stroke: rgb(255, 0, 200);
+  stroke-width: 10;
+  animation: group4 2s linear 5s forwards;
+  stroke-dashoffset: 6488;
+  stroke-dasharray: 6488;
+}
+
+@keyframes group4 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.group6 {
+  stroke: rgb(162, 0, 255);
+  stroke-width: 6;
+  animation: group6 1s linear 3.5s forwards;
+  stroke-dashoffset: 6488;
+  stroke-dasharray: 6488;
+}
+
+@keyframes group6 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.group5 {
+  stroke: rgba(88, 210, 27, 0.782);
+  stroke-width: 15;
+  animation: group5 4s linear 5.2s forwards;
+  stroke-dashoffset: 6488;
+  stroke-dasharray: 6488;
+}
+
+@keyframes group5 {
+  20% {
+    stroke: orange;
+  }
+  40% {
+    stroke: red;
+  }
+  60% {
+    stroke: indigo;
+  }
+  100% {
+    stroke: rgb(136, 211, 32);
+    stroke-dashoffset: 0;
+  }
+}/*# sourceMappingURL=style822.css.map */
