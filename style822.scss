@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .box {
   background-color: #000007;
 }
 svg {
   width: 100%;
+  height: 100vh;
 }
 
 .group {
